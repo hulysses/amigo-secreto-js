@@ -170,3 +170,90 @@ main {
   border: 2px solid #000;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
+
+@media (max-width: 1024px) {
+  .container {
+    max-width: 600px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header-content h2 {
+    font-size: 1.25rem;
+  }
+
+  .section-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .section-content img {
+    width: 200px;
+  }
+
+  .section-content__text h1 {
+    font-size: 1.75rem;
+  }
+
+  .section-content__text p {
+    font-size: 0.875rem;
+    max-width: 100%;
+  }
+
+  .game-content__add {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .game-content__add input,
+  .game-content__add button {
+    width: 100%;
+    border-radius: 15px;
+  }
+
+  .game-content__names {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .game-content__button {
+    width: 100%;
+  }
+}
+
+@media (max-width: 430px) {
+  .container {
+    max-width: 300px;
+  }
+
+  .header-content h2 {
+    font-size: 1rem;
+  }
+
+  .section-content img {
+    width: 150px;
+  }
+
+  .section-content__text h1 {
+    font-size: 1.5rem;
+  }
+
+  .section-content__text p {
+    font-size: 0.75rem;
+  }
+
+  .game-content__add input,
+  .game-content__add button {
+    font-size: 14px;
+  }
+
+  .game-content__names__list h3,
+  .game-content__names__sort h3 {
+    font-size: 1rem;
+  }
+
+  .game-content__names__list li,
+  .game-content__names__sort li {
+    font-size: 0.875rem;
+  }
+}
