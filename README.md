@@ -8,6 +8,8 @@ O projeto consiste em um sorteador de nomes para facilitar a organização de um
     <img src="./assets/images/sorteia-ai.png" alt="Sorteia Aí" /> 
 </div
 
+#
+
 ## 🌐 Deploy
 
 Link: https://sorteia-ai.vercel.app/
