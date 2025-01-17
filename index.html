@@ -39,23 +39,19 @@
                 <h2>Adicionar Nomes</h2>
                 <div class="game-content__add">
                     <input type="text" id="name" placeholder="Digite um nome" aria-label="Nome">
-                    <button id="add">Adicionar</button>
+                    <button id="add" onclick="adicionarAmigo()">Adicionar</button>
                 </div>
                 <div class="game-content__names">
                     <div class="game-content__names__list">
                         <h3>Nomes Adicionados</h3>
-                        <ul id="names-list">
-                            
-                        </ul>
+                        <ul id="names-list"></ul>
                     </div>
                     <div class="game-content__names__sort">
                         <h3>Nome Sorteado</h3>
-                        <ul id="sorted-name">
-                            
-                        </ul>
+                        <ul id="sorted-name"></ul>
                     </div>
                 </div>
-                <button class="game-content__button" id="sort">Sortear</button>
+                <button class="game-content__button" id="sort" onclick="sortear()">Sortear</button>
             </div>
         </section>
     </main>
